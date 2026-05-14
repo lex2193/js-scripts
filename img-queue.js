@@ -27,7 +27,7 @@
             items.push(node);
             if (!current) next();
           }
-  }).observe(document.body, {
+  }).observe(document, {
     childList: true,
     attributes: true,
     subtree: true,
